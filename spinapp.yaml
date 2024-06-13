@@ -1,8 +1,0 @@
-apiVersion: core.spinoperator.dev/v1alpha1
-kind: SpinApp
-metadata:
-  name: spin-app
-spec:
-  image: "vamshireddy02/spin-app:1h"
-  executor: containerd-shim-spin
-  replicas: 2
